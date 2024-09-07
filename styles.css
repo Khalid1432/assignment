@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+.wrapper{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.container{
+    width: 1512px;
+    height: 1044px;
+    position: relative;
+    background: #1B1B1B;
+}
+    /* main section  start */
+
+   /* gradient part */
+.gradient{
+    width: 1103px;
+    height: 1071.08px;
+    position: absolute;
+    top: -169px;
+    left:-358px;
+    gap:0px;
+    opacity: 0px;
+    background: radial-gradient(35.19% 35.19% at 50% 50%, rgba(59, 149, 255, 0.17) 0%, rgba(28, 106, 197, 0) 100%);
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+/* dark right part */
+.dark-right{
+    width: 513px;
+    height: 1059px; 
+    background: #00000033;
+    position: absolute;
+    top: -15px;
+    left: 999px;
+    z-index:0;
+}
+
+/* text part */
+.text-content{
+    width:422px;
+    height:258px;
+    position: absolute;
+    top: 368px;
+    left: 227px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.main-heading{
+    width:283px;
+    height:118px;
+    font-weight: 500;
+    font-size: 64px;
+    color: #AAAAAA;
+    line-height: 58.88px;
+    /* box-shadow: 0px 4px 92px 0px #00000040; */
+    font-family: League Spartan;
+    text-align: left;
+}
+.text-content .work-text{
+    color: #F2F2F2;
+}
+.question-mark{
+    color:#459BFF;
+}
+
+.line{
+    width:84.02px;
+    border: 2px solid #5AA5FD;
+    border: 2px 0px 0px 0px;
+}
+
+.main-paragraph{
+    color:#EEEEEE;
+    width:422px;
+    height:44px;
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 22.8px;
+    text-align: left;
+    /* box-shadow: 0px 4px 13.4px 0px #00000040; */
+}
+
+/* images part */
+.main-img img{
+    width: 371px;
+    height: 776px;
+    position: absolute;
+    top: 126px;     
+    left: 745px;
+    border-radius: 51px 0px 0px 0px;
+}
+/* range Slider */
+.slider-container{
+    position: relative;
+    top: 480px;
+    left: 1155px;
+    z-index:5;
+    transform-origin: 7%;
+    transform: rotate(90deg);
+}
+.slider-container .bar{
+    position: absolute;
+    left:0;
+    top:8px;
+    width:283px;
+    height:3px;
+    background-color: #424242;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+.slider-container .bar .fill{
+    display: block;
+    width:22px;
+    height:3px;
+    background-color: #6BAFFF;
+    
+}
+.slider-container .slider{
+    position: relative;
+    z-index: 2;
+    width: 283px;
+    height: 3px;
+    -webkit-appearance: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: transparent;
+    
+}
+.slider-container .slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width:15px;
+    height:15px;
+    background-color: #6BAFFF;
+    border-radius: 50%;
+    outline: none;
+}
+
+/* main section  end */
+
+/* step-1 section  start */
+.step-1-gradient{
+    width: 1103px;
+    height: 1071.08px;
+    position: absolute;
+    top: -69px;
+    left:-373px;
+    background: radial-gradient(35.19% 35.19% at 50% 50%, rgba(59, 149, 255, 0.17) 0%, rgba(28, 106, 197, 0) 100%);
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+.step-1-text-content{
+    width:550px;
+    height:257px;
+    position: absolute;
+    top: 368px;
+    left: 227px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.steps-heading{
+    width:283px;
+    height:59px;
+    font-weight: 500;
+    font-size: 64px;
+    color: #AAAAAA;
+    line-height: 58.88px;
+    /* box-shadow: 0px 4px 92px 0px #00000040; */
+    font-family: League Spartan;
+    text-align: left;
+}
+.text-1{
+    color: #EEEEEE;
+}
+
+.paragrap-step-1{
+    width:550px;
+    height:102px;
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+.para-1st{
+    width:550px;
+    height:26px;
+    display: flex;
+    gap:16px;
+}
+.para-1st-circle{
+    width:16px;
+    height:16px;
+    border-radius: 50%;
+    background-color: #F6E43F;
+}
+.para-1st-text{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 25.76px;
+    color:#FCF1B6;
+}
+.para-2nd{
+    width:454px;
+    height:52px;
+    display: flex;
+    gap:16px;
+}
+.para-2nd-circle{
+    width:16px;
+    height:16px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+}
+.para-2nd-text{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 25.76px;
+    color:#939393;
+}
+
+.img-step-1 img{
+    width:516px;
+    height:1079.29px;
+    position: absolute;
+    top:211px;
+    left:699px;
+    border-radius: 85px;
+    z-index: 5;
+}
+.dashimg-step-1{
+    width:252px;
+    height:249.82px;
+    position: absolute;
+    top:319.28px;
+    left:510.68px;
+    z-index: 6;
+}
+
+.img2-step-1{
+    width:516px;
+    height:1065.29px;
+    position: absolute;
+    top:63px;
+    left:695px;
+    border-radius: 85px;
+}
+.dashimg2-step-1{
+    width:252px;
+    height:249.82px;
+    position: absolute;
+    top:430.53px;
+    left:610.68px;
+}
+/* step-1 section  end */
+
+/* step-2 section  start */
+.step-2-text-content{
+    width:550px;
+    height:279px;
+    position: absolute;
+    top: 368px;
+    left: 227px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.text-2{
+    color:#EEEEEE;
+}
+.paragrap-step-2{
+    width:550px;
+    height:124px;
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+.step2-para-1st{
+    width:550px;
+    height:22px;
+    display: flex;
+    gap:16px;
+}
+.step2-para-1st div{
+    width:16px;
+    height:16px;
+    background-color: #F6E43F;
+}
+.step2-para-1st p{
+    font-size: 24px;
+    line-height: 22.08px;
+    font-weight: 500;
+    color: #FCF1BB;
+}
+
+.unorder-list{
+    padding-left: 35px;
+    width:422px;
+    height:78px;
+    display: flex;
+    flex-direction: column;
+    /* gap:16px; */
+}
+.unorder-list li{
+    font-size: 28px;
+    color: #EEEEEE;
+    font-weight: 400;
+    line-height: 25.76px;
+}
+
+.img2-step-2{
+    width:516px;
+    height:1079.29px;
+    position: absolute;
+    top:0px;
+    left:697px;
+    border-radius: 85px;
+}
+.dashimg2-step-2 {
+    width:252px;
+    height:249.82px;
+    position: absolute;
+    top:522.06px;
+    left:550.82px;
+    transform: rotate(398deg);
+}
+
+/* step-2 section  end */
+
+/* step-3 section  start */
+.step-3-gradient{
+    width:1103px;
+    height:1071.08px;
+    position: absolute;
+    top: 26px;
+    left: -356px;
+    background: radial-gradient(35.19% 35.19% at 50% 50%, rgba(59, 149, 255, 0.17) 0%, rgba(28, 106, 197, 0) 100%);
+     /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.step-3-text-content{
+    width:550px;
+    height:199px;
+    position: absolute;
+    top: 454px;
+    left: 295px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.paragrap-step-3{
+    width:550px;
+    height:44px;
+    display: flex;
+    gap: 24px; 
+}
+
+.img2-step-3{
+    width:372px;
+    height:778.09px;
+    position: absolute;
+    top: 80px;
+    left: 815px;
+    border-radius: 45px;
+}
+.dashimg2-step-3{
+    width:252px;
+    height:249.82px;
+    position: absolute;
+    top: 530.33px;
+    left: 610.57px;
+    transform: rotate(35deg);
+}
+
+/* step-3 section  end */
+
+/* step-4 section  start */
+.step-4-gradient{
+    width:1103px;
+    height:1071.08px;
+    position: absolute;
+    top: 123px;
+    left: -354px;
+    background: radial-gradient(35.19% 35.19% at 50% 50%, rgba(59, 149, 255, 0.17) 0%, rgba(28, 106, 197, 0) 100%);
+     /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.step-4-text-content{
+    width:550px;
+    height:297px;
+    position: absolute;
+    top: 368px;
+    left: 227px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.paragrap-step-4{
+    width:550px;
+    height: 142px;
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+
+.step4-para{
+    width:550px;
+    height: 26px;
+    display: flex;
+    gap:16px;
+}
+.para-1st-circle-step-4{
+    width:16px;
+    height:16px;
+    background-color: #F6E43F;
+    border-radius: 50%;
+}
+.para-1st-text-step-4{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 25.76px;
+    color:#FCF1BB;
+}
+
+.paragrap-step-4 ul{
+   width:381px;
+   height:92px;
+   display: flex; 
+   gap:16px;
+}
+.paragrap-step-4 ul li{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 26px;
+    color:#EEEEEE;
+}
+.img2-step-4{
+    width:372px;
+    height:778.09px;
+    position: absolute;
+    top:69px;
+    left:749px;
+    border-radius: 41px;
+}
+.dashimg2-step-4{
+    width:204.98px;
+    height:190.76px;
+    position: absolute;
+    top:548.33px;
+    left:555px;
+    transform: rotate(32deg);
+}
+/* step-4 section  end */

@@ -1,0 +1,14 @@
+@media screen and (max-width:1280px){
+    .gradient{
+        width: 873px;
+        height: 900.08px;
+        position: absolute;
+        top: -169px;
+        left:-358px;
+    }
+    .dark-right{
+        width: 513px;
+        height: 1059px;
+    }
+    
+}
